@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const plm = require("passport-local-mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/instainsta");
+mongoose.connect("mongodb+srv://sushil970:Sushil7549@cluster0.00upii1.mongodb.net/instaclone" ,{ useUnifiedTopology: true });
 
 const userSchema = mongoose.Schema({
   username: String,
